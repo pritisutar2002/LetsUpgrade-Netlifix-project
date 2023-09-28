@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.header{
+    width:100%;
+    height: 70px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 20%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 100%;
+}
+.search{
+    width: 20%;
+    height: 70px;
+    /* background-color:blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    width: 85%;
+    height: 40px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+ 
+
+}
+.search-box{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+   
+}
+.search-icon{
+    height: 22px;
+}
+
+/* movies css  */
+.movies{
+width: 100%;
+padding: 50px 5%;
+background-color: gray;
+display: flex;
+flex-wrap: wrap;
+column-gap: 6%;
+row-gap: 20px;
+overflow: hidden;
+}
+.movie{
+    width: 20%;
+    height: 50%;
+    /* background-color: red; */
+    border-radius: 10px;
+    overflow: hidden;
+  
+}
+.overlay{
+    width: 18%;
+    height: 55%;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.overlay:hover{
+    opacity: 1;
+
+}
+.video{
+    width: 100%;
+    height: 50%; 
+    /* background-color: yellow; */
+}
+.details{
+    width: 100%;
+    height: 50%; 
+    /* background-color:blue; */
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.poster{
+    width: 100%;
+
+}
